@@ -1,0 +1,8 @@
+7
+Haruki_Murakami 01/12/1949 A_Wild_Sheep_Chase
+Leo_Tolstoy 09/09/1828 War_and_Peace
+Fyodor_Dostoevsky 11/11/1821 Crime_and_Punishment
+Nikos_Kazantzakis 02/18/1883 The_Last_Temptation
+Charles_Bukowski 08/16/1929 Post_Office
+George_Orwell 06/25/1903 1984
+John_Milton 12/09/1608 Paradise_Lost

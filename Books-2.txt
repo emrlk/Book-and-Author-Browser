@@ -1,0 +1,12 @@
+11
+The_Name_of_the_Rose Umberto_Eco 1983 Italian Mystery
+Norwegian_Wood Haruki_Murakami 2000 Japanese Fiction
+The_Name_of_the_Wind Patrick_Rothfuss 2007 English Fantasy
+The_Girl_with_the_Dragon_Tattoo Stieg_Larsson 2005 Swedish Thriller
+The_Brothers_Karamazov Fyodor_Dostoevsky 1880 Russian Fiction
+Demonic_Males Richard_Wrangham 1997 English Non-Fiction
+War_and_Peace Leo_Tolstoy 1899 Russian Historical-Fiction
+Baudolino Umberto_Eco 2000 Italian Historical-Fiction
+The_Lies_of_Locke_Lamora Scott_Lynch 2006 English Fantasy
+The_Last_of_the_Wine Mary_Renault 1956 English Historical-Fiction
+Brave_New_World Aldous_Huxley 1932 English Science Fiction
