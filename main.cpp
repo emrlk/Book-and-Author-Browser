@@ -1,9 +1,6 @@
-/*****************************
-*   Allows the user to browse book and author information from two files.
-*   Allows the user to view cross listed authors between the two files.
-*   Includes a menu for easier user interaction.
-*   @author Emily Louk
-*   @since 1-26-2023
+/** Assignment #3
+*   Emily Louk
+*   2/17/23
 *****************/
 
 #include <iostream>
@@ -17,9 +14,9 @@ using namespace std;
 ///Prototypes
 void readBookList(ifstream& inFile, struct book listOfBooks[], int numEntries);
 void printBookList(struct book listOfBooks[], int numEntries);
-void readAuthorList(ifstream& inFile, struct author lisruct date listOfDates[], int numEntries);
-void printMatches(ifstream& inFileA, ifstream& inFiletOfAuthors[], struct date listOfDates[], int numEntries);
-void printAuthorList(struct author listOfAuthors[],stB,struct book listOfBooks[], struct author listOfAuthors[], struct date listOfDates[], int numBEntries, int numAEntries);
+void readAuthorList(ifstream& inFile, struct author listOfAuthors[], struct date listOfDates[], int numEntries);
+void printAuthorList(struct author listOfAuthors[],struct date listOfDates[], int numEntries);
+void printMatches(ifstream& inFileA, ifstream& inFileB,struct book listOfBooks[], struct author listOfAuthors[], struct date listOfDates[], int numBEntries, int numAEntries);
 void Menu();
 void displayOptions();
 
