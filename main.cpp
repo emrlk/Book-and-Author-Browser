@@ -1,7 +1,9 @@
-/** Assignment #3
-*   Emily Louk
-*   2/17/23
-*****************/
+/** A one-class exercize demonstrating
+*   the use of struct arrays to structure 
+*   and output organized data.
+*   
+*   @author emrlk
+*/
 
 #include <iostream>
 #include <fstream>
@@ -11,7 +13,7 @@
 
 using namespace std;
 
-///Prototypes
+//Prototypes
 void readBookList(ifstream& inFile, struct book listOfBooks[], int numEntries);
 void printBookList(struct book listOfBooks[], int numEntries);
 void readAuthorList(ifstream& inFile, struct author listOfAuthors[], struct date listOfDates[], int numEntries);
@@ -21,7 +23,7 @@ void Menu();
 void displayOptions();
 
 
-///Structs
+//Structs
 struct book{
 
     string title;
@@ -54,9 +56,9 @@ int main()
     return 0;
 }
 
-/** displayOptions() displays the menu options 1-4 to the screen.
+/** Displays the menu options 1-4 to the screen.
 *   @return void
-*****************/
+*/
 void displayOptions(){
 
     cout << "\t" << "\t" << "\t" << "+ ====== Menu ====== +" << endl;
@@ -68,11 +70,12 @@ void displayOptions(){
     cout << "Enter a number 1-4: ";
 
 }
-///Function Definitions
-/** Menu() Displays options to the user, gets user input,
+
+
+/** Displays options to the user, gets user input,
 *   and calls respective functions depending on input.
 *   @return void
-****************/
+*/
 void Menu(){
 
     int choice;
@@ -163,11 +166,11 @@ void Menu(){
 }
 
 
-/** readBookList() reads the entries from the book file, removes any
+/** Reads the entries from the book file, removes any
 *   underscores from the data, and assigns the data to the members
 *   of each book struct in the array.
 *   @return void
-******************/
+*/
 void readBookList(ifstream& inFile, struct book listOfBooks[], int numEntries){
 
     string title;
@@ -198,10 +201,10 @@ void readBookList(ifstream& inFile, struct book listOfBooks[], int numEntries){
 }
 
 
-/** printBookList() outputs the array of structs, displaying each
+/** Outputs the array of structs, displaying each
 *   book's data.
 *   @return void
-****************/
+*/
 void printBookList(struct book listOfBooks[], int numEntries){
 
     ///Print Table Header
@@ -226,11 +229,11 @@ void printBookList(struct book listOfBooks[], int numEntries){
 }
 
 
-/** readAuthorList() reads the entries from the authors file, removes any
+/** Reads the entries from the authors file, removes any
 *   underscores from the data, and assigns the data to the members
 *   of each author struct in the array.
 *   @return void
-******************/
+*/
 void readAuthorList(ifstream& inFile, struct author listOfAuthors[],struct date listOfDates[], int numEntries){
 
 
@@ -268,10 +271,10 @@ void readAuthorList(ifstream& inFile, struct author listOfAuthors[],struct date 
 }
 
 
-/** printBookList() outputs the array of structs, displaying each
+/** Outputs the array of structs, displaying each
 *   author's data.
 *   @return void
-****************/
+*/
 void printAuthorList(struct author listOfAuthors[], struct date listOfDates[], int numEntries){
 
     ///Print Table Header
@@ -293,10 +296,10 @@ void printAuthorList(struct author listOfAuthors[], struct date listOfDates[], i
 }
 
 
-/** printMatches() reads both text files, creates arrays of structs,
+/** Reads both text files, creates arrays of structs,
 *   and searches the book and author arrays for matching names.
 *   @return void
-***************/
+*/
 void printMatches(ifstream& inFileA,ifstream& inFileB, struct book listOfBooks[], struct author listOfAuthors[], struct date listOfDates[], int numBEntries, int numAEntries){
 
     readBookList(inFileB, listOfBooks, numBEntries);
